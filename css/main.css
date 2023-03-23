@@ -1,0 +1,258 @@
+*{margin: 0;padding: 0;}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600&display=swap');
+
+:root
+{
+	--black: #000;
+	--white: #fff;
+	--yellow: #cd8d02;
+}
+
+body
+{
+	font-family: 'Poppins', sans-serif;
+}
+
+body.bg
+{
+	background-image: url('../images/splash-bg.jpg');
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+body.bg:after
+{
+	content: '';
+    background-color: rgb(0 0 0 / 60%);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+.black-plate
+{
+	background-image: url(../images/black-plate.png);
+    width: 250px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 9;
+    position: absolute;
+    background-position: -65px -40px;
+}
+
+.text-white
+{
+	color: var(--white);
+    margin-top: 8rem;
+}
+
+.text-yellow
+{
+	color: var(--yellow);
+}
+
+.welcome-text
+{
+	height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 10vh;
+    font-size: 48px;
+}
+
+.get-started-btn
+{
+	display: flex;
+    justify-content: flex-start;
+    align-items: bottom;
+}
+
+/*---- sumit ----*/
+
+button.btn {
+    width: 100%;
+    height: 40px;
+    text-align: left;
+    background-color: #cd8d02;
+    border: none;
+    border-radius: 20px;
+    font-size: 14px;
+    padding-left: 20px;
+}
+
+i.fa.fa-angle-right {
+    float: right;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+button.btn2 {
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    background-color: #139100;
+    border: none;
+    font-size: 14px;
+    padding: 10px 34px;
+    border-bottom-left-radius: 20px;
+    border-start-start-radius: 20px;
+}
+
+.welcome-text1 {
+    height: 60vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: end;
+    font-size: 16px;
+}
+
+span.bi.bi-chevron-down {
+    float: right;
+    padding-right: 12px;
+}
+
+span.bi.bi-globe {
+    float: left;
+}
+p.lan {
+    font-size: 14px;
+    color: yellow;
+    padding-left: 10px;
+}
+
+select#language {
+    font-size: 16px;
+    padding: 10px 60px;
+    border: none;
+    border-radius: 50px 50px;
+    background-color: #fff;
+    font-weight: 600;
+    margin-left: 5vh;
+}
+.iti.iti--allow-dropdown {
+    margin-left: 5vh;
+}
+p.text-ln {
+    position: absolute;
+    color: #cd8d02;
+    font-size: 14px;
+    margin: 8vh -40vh;
+}
+
+input#phone {
+    height: 50px;
+    width: 207px;
+    font-size: 16px;
+    border-radius: 30px;
+    border: none;
+}
+
+.iti__flag-container {
+    margin-top: 26px;
+    padding-left: 5px !important;
+}
+.col-lg-2 {
+    width: 40px !important;
+    margin: 0px 5px;
+}
+input[type="text"] {
+    width: 40px;
+    height: 60px;
+    text-align: center;
+    border: none;
+    font-size: 40px;
+    color: #fff;
+    background: transparent;
+    border-bottom: 4px solid white;
+}
+:focus-visible{
+
+    outline: none;
+}
+p.text-ln1 {
+    position: absolute;
+    color: #cd8d02;
+    font-size: 14px;
+    margin-top: 16vh;
+    padding-left: 4vh;
+}
+button.btn3 {
+    position: absolute;
+    width: 80%;
+    height: 40px;
+    text-align: left;
+    background-color: #cd8d02;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    padding-left: 20px;
+    margin-left: -42vh;
+    font-weight: 600;
+}
+h2.home {
+    color: #cd8d02;
+    text-align: center;
+    padding-top:10px;
+}
+.search {
+    text-align: center;
+}
+
+input[type="text1"] {
+    border-radius: 10vh;
+    border: none;
+    padding-left: 15px;
+    height: 30px;
+}
+i.fa.fa-search {
+    margin-left: -10%;
+}
+
+button{
+    border: none;
+    padding: 5px 15px;
+
+}
+.bt{
+    border: none;
+    padding: 5px 15px;
+    margin-top: 3vh;
+    border-radius: 20vh;
+}
+button.bt2 {
+    margin-top: 35vh;
+    background: #139100;
+}
+button.bt3 {
+    margin-top: 35vh;
+    background: transparent;
+    color: #fff;
+}
+.btns p {
+    margin-bottom: 0px;
+}
+.btns h1 {
+    color: #fff;
+    border-bottom: 4px solid #cd8d02;
+    width: 51%;
+    padding-left: 7%;
+    font-size: 35px;
+}
+
+.row1 {
+    display: flex;
+    width: 80%;
+    margin-left: 1.5rem;
+}
+}
+.row1 .col-lg-2{
+
+    width: 100% !important;
+}
